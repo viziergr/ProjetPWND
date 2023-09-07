@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset ='utf-8'>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <title>Profil</title>
+    </head>
+    <body>
+        <div class="ligne">
+            <div class="ImgCompte">
+                <form action="profil.html"></form>
+                <center><h2>Mon profil</h2></center>
+                <center><img class="img" src="65939r.jpg"></center>
+                <center><button class="modifCompte" id = "boutonModifCompte" onClick="modification.html"><span>Modifier</span></button></center>
+            </div> 
+            <div class="ChampPublication">
+                <form action="profil.html"></form>
+                <center><h2>Raconte ta vie</h2></center>
+                <center><input type="text" class="champVie" id="champVie" name="champVie" value=""></center><br><br>
+                <center><button class="boutonPublier" id = "boutonPublier"><span>Publier</span></button></center>
+                </form> <br>
+            </div>
+            <div class="ListeInscrits">
+                <center><h2>Liste des inscrits</h2></center>
+            </div>
+        </div>
+    </body>
+</html>

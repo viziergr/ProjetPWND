@@ -1,0 +1,278 @@
+table,
+    th,
+    td {
+        border-radius: 25px;
+    }
+
+    #Connexion {
+        float: left;
+        width: 40%;
+        padding: 15px;
+        border-radius: 25px;
+        margin-left: 90px;
+        background: linear-gradient(to bottom right, rgb(53, 143, 203), rgb(101, 212, 21))
+    }
+
+    #Inscription {
+        float: right;
+        width: 40%;
+        padding: 15px;
+        background: linear-gradient(to left, rgb(213, 80, 36), rgb(255, 173, 205));
+        border-radius: 25px;
+        margin-right: 90px;
+    }
+
+    .navbar {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    
+    @media (min-width: 992px) {
+        .navbar-expand-lg .navbar-nav .dropdown-menu {
+            z-index: 1030;
+        }
+    }
+    
+    .navbar .dropdown-menu a {
+        font-weight: 700;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="search"],
+    input[type="number"],
+    textarea,
+    select,
+    button {
+        width: 100%;
+        border-radius: 12px;
+        font-size: 1rem;
+        font-weight: 700;
+        padding: 0 18px;
+        margin: 8px 8px;
+    }
+
+    
+
+    .row::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    label {
+        color: white;
+        padding: 0px 0px;
+        margin: 4px 4px;
+    }
+
+    .h2_a {
+        color: white;
+    }
+
+    .h2_b {
+        color: black;
+    }
+
+    input[type=text] {
+        width: 95%;
+        padding: 4px 4px;
+        margin: 4px 4px;
+        box-sizing: border-box;
+        border: 0px solid #ccc;
+        border-radius: 10px;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        outline: none;
+    }
+
+    input[type=password] {
+        width: 95%;
+        padding: 4px 4px;
+        margin: 4px 4px;
+        box-sizing: border-box;
+        border: 0px solid #ccc;
+        border-radius: 10px;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        outline: none;
+    }
+
+    .button {
+        background-color: violet;
+        border: none;
+        color: White;
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 8px;
+        transition: all 0.5s;
+    }
+
+    .button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+
+    .button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 1.5s;
+    }
+
+    .button:hover span {
+        padding-right: 25px;
+
+    }
+
+    .button:hover span:after {
+        opacity: 1;
+        right: 0;
+    }
+
+    .button:hover {
+        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+        color: crimson;
+    }
+
+    select {
+        width: 95%;
+        padding: 10px 15px;
+        margin: 8px 8px;
+        border: none;
+        border-radius: 4px;
+        background-color: #f1f1f1;
+    }
+
+    /* Début de la page profil.html */
+
+    .img {
+        max-width: 200px;
+        height: auto;
+        border-radius: 20%;
+        margin: 8px 8px;
+    }
+
+    .pasimg {
+        max-width: 300px;
+        height: auto;
+        border-radius: 20%;
+    }
+
+    .img2 {
+        margin:8px 8px;
+        max-width: 10px;
+        height: auto;
+        border-radius: 20%;
+    }
+    .modifCompte {
+        background-color: violet;
+        border: none;
+        color: White;
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-top: 20px;
+        cursor: pointer;
+        border-radius: 8px;
+        transition: all 0.5s;
+    }
+
+    .ImgCompte {
+        background-color: rgb(255, 173, 205);
+        border-radius: 15px;
+    }
+
+    .ChampPublication {
+        float: right;
+        width: 60%;
+        height: 10%;
+        padding: 15px;
+        background-color: rgb(255, 173, 205);
+        border-radius: 25px;
+        margin: 25px 10px;
+        border-radius: 7px;
+        transition: 0.5s;
+    }
+
+    .boutonPublier {
+        background-color: violet;
+        border: none;
+        color: White;
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-top: 20px;
+        cursor: pointer;
+        border-radius: 8px;
+        transition: all 0.5s;
+    }
+
+    #champVie {
+        font-size: 16px;
+        width: 30%;
+        height: 30%;
+    }
+
+    .ListeInscrits {
+        float: left;
+        padding: 15px;
+        background-color: rgb(255, 173, 205);
+        border-radius: 15px;
+        margin: 25px 20px;
+    }
+
+    /* Fin de la page profil.html */
+    /* Début de la page modification */
+
+    .Modification {
+        width: auto;
+        padding: 15px;
+        background-color: rgb(255, 173, 205);
+        border-radius: 25px;
+        margin-left: 90px;
+        margin-right: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .centered-image-input {
+        margin-top: 20px;
+        /* Ajustez la marge supérieure en fonction de vos besoins */
+    }
+
+    .boutonConfirmer {
+        background-color: violet;
+        border: none;
+        color: White;
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-top: 20px;
+        cursor: pointer;
+        border-radius: 8px;
+        transition: all 0.5s;
+    }
+
+    .col-md-12 {
+        margin-top: 10px;
+    }
